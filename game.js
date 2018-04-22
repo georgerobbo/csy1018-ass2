@@ -15,9 +15,9 @@ var interval = [];
 
 function horseRight1() {
 
-   // rndnumgen();
+    // rndnumgen();
 
-   var rdnnum = Math.random();
+    var rdnnum = Math.random();
 
     var element = document.getElementById('horse1');
     var positionLeft = element.offsetLeft;
@@ -220,11 +220,11 @@ function horseLeft4() {
 }
 
 
-    function horseDown1() {
+function horseDown1() {
 
-        var rdnnum = Math.random();
+    var rdnnum = Math.random();
 
-        var element = document.getElementById('horse1');
+    var element = document.getElementById('horse1');
     var positionTop = element.offsetTop;
     element.style.top = positionTop + rdnnum + 'px';
     element.className = 'horse runDown';
@@ -235,7 +235,7 @@ function horseLeft4() {
     }
 }
 
-function horseDown2(){
+function horseDown2() {
 
     var rdnnum = Math.random();
 
@@ -247,10 +247,10 @@ function horseDown2(){
     if (positionTop >= window.innerHeight / 10.5 * 8) {
         clearInterval(interval[1]);
         interval[1] = setInterval(horseFinish2, 1);
-}
+    }
 }
 
-function horseDown3(){
+function horseDown3() {
 
     var rdnnum = Math.random();
 
@@ -262,10 +262,10 @@ function horseDown3(){
     if (positionTop >= window.innerHeight / 11 * 8) {
         clearInterval(interval[2]);
         interval[2] = setInterval(horseFinish3, 1);
-}
+    }
 }
 
-function horseDown4(){
+function horseDown4() {
 
     var rdnnum = Math.random();
 
@@ -277,7 +277,7 @@ function horseDown4(){
     if (positionTop >= window.innerHeight / 11.5 * 8) {
         clearInterval(interval[3]);
         interval[3] = setInterval(horseFinish4, 1);
-}
+    }
 }
 
 
@@ -295,7 +295,7 @@ function horseFinish1() {
 
         var element = document.getElementById('horse1');
         element.className = 'horse standRight';
-}
+    }
 }
 
 function horseFinish2() {
@@ -312,7 +312,7 @@ function horseFinish2() {
 
         var element = document.getElementById('horse2');
         element.className = 'horse standRight';
-}
+    }
 }
 
 function horseFinish3() {
@@ -329,7 +329,7 @@ function horseFinish3() {
 
         var element = document.getElementById('horse3');
         element.className = 'horse standRight';
-}
+    }
 }
 
 function horseFinish4() {
@@ -346,7 +346,7 @@ function horseFinish4() {
 
         var element = document.getElementById('horse4');
         element.className = 'horse standRight';
-}
+    }
 }
 
 
