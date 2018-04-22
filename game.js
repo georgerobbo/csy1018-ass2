@@ -290,7 +290,7 @@ function horseFinish1() {
     element.style.left = positionLeft + rdnnum + 'px';
     element.className = 'horse runRight';
 
-    if (positionLeft >= window.innerWidth / 15 * 3) {
+    if (positionLeft >= window.innerWidth / 12 * 3) {
         clearInterval(interval[0]);
 
         var element = document.getElementById('horse1');
@@ -307,7 +307,7 @@ function horseFinish2() {
     element.style.left = positionLeft + rdnnum + 'px';
     element.className = 'horse runRight';
 
-    if (positionLeft >= window.innerWidth / 15 * 3) {
+    if (positionLeft >= window.innerWidth / 12 * 3) {
         clearInterval(interval[1]);
 
         var element = document.getElementById('horse2');
@@ -324,7 +324,7 @@ function horseFinish3() {
     element.style.left = positionLeft + rdnnum + 'px';
     element.className = 'horse runRight';
 
-    if (positionLeft >= window.innerWidth / 15 * 3) {
+    if (positionLeft >= window.innerWidth / 12 * 3) {
         clearInterval(interval[2]);
 
         var element = document.getElementById('horse3');
@@ -341,7 +341,7 @@ function horseFinish4() {
     element.style.left = positionLeft + rdnnum + 'px';
     element.className = 'horse runRight';
 
-    if (positionLeft >= window.innerWidth / 15 * 3) {
+    if (positionLeft >= window.innerWidth / 12 * 3) {
         clearInterval(interval[3]);
 
         var element = document.getElementById('horse4');
