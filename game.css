@@ -308,7 +308,6 @@ aside ul {
 	margin-top: 15vh;
 	margin-left: 10vw;
 	display: table;
-	solid transparent;
 	background-color: green;
 	width: 60vw;
 	height: 50vh;
@@ -656,7 +655,7 @@ aside ul {
 	text-shadow: 2px 2px 2px #333;
 }
 
-}
+
 
 #start:hover {
 	color: #000;
