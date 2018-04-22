@@ -231,7 +231,7 @@ function horseLeft4() {
 
     if (positionTop >= window.innerHeight / 10 * 8) {
         clearInterval(interval[0]);
-        interval[0] = setInterval(horseEdge1, 1);
+        interval[0] = setInterval(horseFinish1, 1);
     }
 }
 
@@ -246,7 +246,7 @@ function horseDown2(){
 
     if (positionTop >= window.innerHeight / 10.5 * 8) {
         clearInterval(interval[1]);
-        interval[1] = setInterval(horseEdge2, 1);
+        interval[1] = setInterval(horseFinish2, 1);
 }
 }
 
@@ -261,7 +261,7 @@ function horseDown3(){
 
     if (positionTop >= window.innerHeight / 11 * 8) {
         clearInterval(interval[2]);
-        interval[2] = setInterval(horseEdge3, 1);
+        interval[2] = setInterval(horseFinish3, 1);
 }
 }
 
@@ -276,12 +276,12 @@ function horseDown4(){
 
     if (positionTop >= window.innerHeight / 11.5 * 8) {
         clearInterval(interval[3]);
-        interval[3] = setInterval(horseEdge4, 1);
+        interval[3] = setInterval(horseFinish4, 1);
 }
 }
 
 
-function horseEdge1() {
+function horseFinish1() {
 
     var rdnnum = Math.random();
 
@@ -298,7 +298,7 @@ function horseEdge1() {
 }
 }
 
-function horseEdge2() {
+function horseFinish2() {
 
     var rdnnum = Math.random();
 
@@ -315,7 +315,7 @@ function horseEdge2() {
 }
 }
 
-function horseEdge3() {
+function horseFinish3() {
 
     var rdnnum = Math.random();
 
@@ -332,7 +332,7 @@ function horseEdge3() {
 }
 }
 
-function horseEdge4() {
+function horseFinish4() {
 
     var rdnnum = Math.random();
 
